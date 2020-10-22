@@ -1,0 +1,25 @@
+:root{
+    --font-name : 'Commissioner', sans-serif;
+    --max-width : 1200px;
+    --main-padding: 20px;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before , *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: var(--font-name);
+}
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.container h1 {
+    text-align: center;
+}
+.favourite {
+    color: rgb(180, 226, 86);
+}
